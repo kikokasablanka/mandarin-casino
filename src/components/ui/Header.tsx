@@ -1,7 +1,7 @@
 import { useUserStore } from '../../stores/userStore';
 
 export default function Header() {
-  const { chips, level, xp, streak } = useUserStore();
+  const { chips, level, streak } = useUserStore();
 
   return (
     <header className="sticky top-0 z-50 bg-gray-800 border-b border-gray-700 px-4 py-3">
